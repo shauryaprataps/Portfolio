@@ -127,8 +127,7 @@ clean engineering practices.
               <div className="premium-card rounded-[2rem] p-4">
                 <div className="overflow-hidden rounded-[1.5rem]">
                   <img
-                    src="/me.png"
-                    alt="Shaurya Pratap Singh"
+                   src={`${import.meta.env.BASE_URL}me.png`} alt="Profile"                  alt="Shaurya Pratap Singh"
                     loading="eager"
                     className="aspect-[4/5] w-full rounded-[1.5rem] object-cover transition-transform duration-700 hover:scale-105"
                   />
