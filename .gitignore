@@ -20,3 +20,7 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+# Logs
+*.log
+vite-dev.log
+vite-dev.err.log
