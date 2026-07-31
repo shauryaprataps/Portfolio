@@ -34,7 +34,7 @@ export default function Contact() {
         description="Reach out via email or use the contact form. I'm open to discussing new projects, creative ideas, or opportunities to be part of your vision."
       />
 
-      <div className="grid items-stretch gap-5 lg:grid-cols-12">
+      <div className="grid items-start gap-5 lg:grid-cols-12 lg:items-stretch">
         <motion.aside
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -42,7 +42,7 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="lg:col-span-5 lg:h-full"
         >
-          <div className="premium-card flex h-full flex-col justify-between rounded-[2rem] p-7 sm:p-8">
+          <div className="premium-card flex flex-col rounded-[2rem] p-7 sm:p-8 lg:h-full">
             <div>
               <h3 className="text-base font-semibold">Direct Links</h3>
               <p className="mt-2 text-sm leading-6 text-muted">
@@ -78,11 +78,6 @@ export default function Contact() {
                 })}
               </div>
             </div>
-
-            <div className="mt-7 rounded-2xl border border-accent/20 bg-accent/10 p-5 text-sm leading-6 text-muted">
-              <span className="block font-semibold text-text">Available for Full-Time Opportunities.</span>
-              <span className="mt-1 block">Open to roles where I can build polished, high-impact products.</span>
-            </div>
           </div>
         </motion.aside>
 
@@ -93,7 +88,7 @@ export default function Contact() {
           transition={{ duration: 0.5, delay: 0.05 }}
           className="lg:col-span-7 lg:h-full"
         >
-          <div className="premium-card h-full rounded-[2rem] p-7 sm:p-8">
+          <div className="premium-card rounded-[2rem] p-7 sm:p-8 lg:h-full">
             <h3 className="text-base font-semibold">Send a Message</h3>
 
             <form

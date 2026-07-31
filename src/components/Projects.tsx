@@ -24,8 +24,8 @@ const projects: Project[] = [
     tech: ['React', 'Tailwind CSS', 'AWS Lambda', 'Amazon S3', 'OCR'],
     githubUrl: 'https://github.com/shauryaprataps/SmartDoc',
     liveUrl: 'https://docsmart2025.vercel.app/',
-    image: '/doc.png',
-    highlight: 'Featured Project',
+image: `${import.meta.env.BASE_URL}doc.png`   ,
+ highlight: 'Featured Project',
     category: 'Document AI',
     status: 'Live'
   },
@@ -36,7 +36,7 @@ const projects: Project[] = [
     tech: ['React', 'TypeScript', 'Tailwind CSS', 'Postman', 'Deployment'],
     githubUrl: 'https://github.com/shauryaprataps/compensation-intelligence',
     liveUrl: 'https://compensation-intell.vercel.app/',
-    image: '/comp.png',
+    image: `${import.meta.env.BASE_URL}comp.png`,
     highlight: 'Analytics',
     category: 'Analytics',
     status: 'Live'
@@ -48,7 +48,7 @@ const projects: Project[] = [
     tech: ['Python', 'Machine Learning', 'NLP', 'Audio Processing'],
     githubUrl: 'https://github.com/shauryaprataps/emotion-recognition-system',
     liveUrl: 'https://analyze-emotions.vercel.app/',
-    image: '/emo.png',
+    image: `${import.meta.env.BASE_URL}emo.png`,
     highlight: 'AI/ML',
     category: 'Machine Learning',
     status: 'Live'
